@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { gsap } from 'gsap';
 import Particles from '../../styles/Particles';
 import { useAuth } from '../../context/AuthContext';
@@ -119,10 +119,6 @@ const Login = () => {
               {isLoading ? 'Logging In...' : 'Login'}
             </button>
           </form>
-          <p className="mt-4 text-center text-sm text-gray-300">
-            Don&apos;t have an account?{' '}
-            <Link to="/signup" className="text-blue-400 hover:underline font-medium">Sign Up</Link>
-          </p>
         </div>
       </div>
       <style>{`

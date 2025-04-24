@@ -3,7 +3,6 @@ import { AuthProvider, useAuth } from '../context/AuthContext';
 import PropTypes from 'prop-types';
 
 import Login from '../components/Auth/Login';
-import Signup from '../components/Auth/Signup';
 import Navbar from '../components/common/Navbar';
 import Dashboard from '../components/pages/Dashboard';
 import Posts from '../components/pages/Posts';
@@ -47,7 +46,6 @@ const AppRoutes = () => {
         <Routes>
           {/* Public Routes */}
           <Route path="/" element={<Login />} />
-          <Route path="/signup" element={<Signup />} />
           
           {/* Protected Routes with Navbar and Footer layout */}
           <Route element={

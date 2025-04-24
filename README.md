@@ -5,7 +5,7 @@ A React application featuring user authentication, posts listing, and photo gall
 ## 📋 Features
 
 - **Authentication System**
-  - Login and Sign up pages with form validation
+  - Simple login page with form validation
   - Protected routes requiring authentication
   - Context API for auth state management
   
@@ -63,12 +63,6 @@ A React application featuring user authentication, posts listing, and photo gall
   - Username: `admin`
   - Password: `password`
 
-- **Sign Up**: Complete the form with required fields
-  - Name
-  - Username
-  - Password (minimum 6 characters)
-  - Confirm Password
-
 ### Navigation
 
 After authentication, you will have access to:
@@ -83,8 +77,7 @@ After authentication, you will have access to:
 src/
 ├── components/
 │   ├── Auth/
-│   │   ├── Login.jsx
-│   │   └── Signup.jsx
+│   │   └── Login.jsx
 │   ├── common/
 │   │   ├── Footer.jsx
 │   │   └── Navbar.jsx
