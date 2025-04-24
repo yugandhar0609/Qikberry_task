@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { gsap } from 'gsap';
 import Particles from '../../styles/Particles';
 import { useAuth } from '../../context/AuthContext';
+import logo from '../../assets/Qikberry logo.png';
 
 const Login = () => {
   const [username, setUsername] = useState('');
@@ -72,11 +73,10 @@ const Login = () => {
       <div className="container mx-auto max-w-md px-4 py-12 flex-grow flex items-center relative z-10">
         <div className="card w-full p-8 bg-white bg-opacity-10 backdrop-blur-lg border border-white border-opacity-10 rounded-2xl shadow-xl">
           <div className="flex justify-center mb-6">
-            <div className="w-24 h-24 bg-blue-500 rounded-full flex items-center justify-center text-white text-4xl font-bold animate-[float_3s_ease-in-out_infinite]">
-              QB
+            <div className="w-40  flex items-center justify-center  text-4xl font-bold animate-[float_3s_ease-in-out_infinite]">
+              <img src={logo} alt="Qikberry Logo" className="" />
             </div>
           </div>
-          <h2 className="text-3xl font-bold text-center text-white mb-2">Qikberry</h2>
           <p className="text-center text-gray-300 mb-6 text-sm">Log in to your account</p>
           <div className="w-full bg-gray-700 bg-opacity-30 rounded-full h-1.5 mb-6">
             <div style={{ width: `${progress}%` }} className="bg-gradient-to-r from-blue-400 to-blue-500 h-1.5 rounded-full transition-all duration-500 ease-out" />
