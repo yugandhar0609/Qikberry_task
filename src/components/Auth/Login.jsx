@@ -45,7 +45,7 @@ const Login = () => {
     
     try {
       // Demo login validation - in a real app, you'd call an API here
-      if (username === 'admin' && password === 'password') {
+      if (username === 'admin' && password === 'admin') {
         const userData = { 
           name: 'Admin User',
           username: username

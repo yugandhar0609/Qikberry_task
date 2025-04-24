@@ -61,7 +61,7 @@ A React application featuring user authentication, posts listing, and photo gall
 
 - **Login**: Use the following demo credentials
   - Username: `admin`
-  - Password: `password`
+  - Password: `admin`
 
 ### Navigation
 
