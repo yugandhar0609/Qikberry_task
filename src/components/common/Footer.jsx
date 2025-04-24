@@ -3,12 +3,8 @@ import logo from '../../assets/Qikberry logo.png';
 
 const Footer = () => {
   return (
-    <div className="relative py-4 overflow-hidden" style={{ minHeight: '200px' }}>
-      <div className="absolute inset-0 w-full h-full pointer-events-none" style={{ 
-        transform: 'rotate(180deg)', 
-        height: '250px',
-        bottom: '-50px'
-      }}>
+    <div className="relative py-4 overflow-hidden" style={{ minHeight: '120px' }}>
+      <div className="absolute inset-0 w-full h-full pointer-events-none" style={{ transform: 'rotate(180deg)' }}>
         <Aurora 
           colorStops={["#3A29FF", "#FF94B4", "#FF3232"]}
           blend={0.7}
